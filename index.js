@@ -17,7 +17,7 @@ app.get("*",(req,res)=>{
     res.send("<h1>404<h1/>")
 })
 
-
+//.....
 
 app.listen(3000,()=>{
     console.log("server running on port 3000");
